@@ -1,0 +1,339 @@
+footer {
+	position: relative;
+	width: 100%;
+	min-height: 440px;
+	background: #333;
+	margin: auto 0px 0px 0px;
+}
+
+.up_footer {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+	color: white;
+	padding-top: 50px;
+	font-size: .867em;
+    font-weight: 700;
+    line-height: 1.5385em;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+}
+
+.catalog_footer, .company_footer, .info_footer, .help_footer, .contact_footer {
+	display: block;
+	margin: 0 10px 0 10px;
+}
+
+.up_footer>div>span {
+	width: 300px;
+}
+
+.product_send_footer {
+	width: 100%;
+	height: 50px;
+	background: #494949;
+	font-weight: initial;
+	text-transform: initial;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: .2s;
+}
+
+.product_send_footer:hover {
+	background: #4e7dd5;
+}
+
+.svg_footer {
+	display: flex;
+	width: 100%;
+	height: 25px;
+	font-weight: initial;
+	text-transform: initial;
+	line-height: 25px;
+	color: #999;
+	transition: .2s;
+	margin-top: 20px;
+}
+
+.phone_footer_svg {
+	width: 25px;
+	height: 25px;
+	transition: .2s;
+	fill: #999;
+}
+
+.svg_footer>span {
+	margin-left: 10px;
+	line-height: 25px;
+}
+
+.svg_footer:hover .phone_footer_svg{
+	fill: white;
+}
+
+.svg_footer:hover {
+	color: white;
+}
+
+.down_upperFooter {
+	margin-top: 10px;
+}
+
+.a_down_upperFotter {
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	
+}
+
+.a_down_upperFotter>a {
+	color: #999;
+	font-weight: initial;
+	text-transform: initial;
+	transition: .2s;
+}
+
+.a_down_upperFotter>a:hover {
+	color: white;
+}
+
+.social_line {
+	position: relative;
+	margin-top: 20px;
+	margin-left: 5%;
+	width: 90%;
+	height: 59px;
+	display: inline-block;
+
+}
+
+.social_line::before {
+	content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: rgba(255,255,255,.08);
+    margin-top: -1px;
+}
+
+.social_line_icons {
+	width: 230px;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: absolute;
+	background: #333;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%);
+	align-items: center;
+	cursor: pointer;
+}
+
+.social_link_footer {
+	width: 40px;
+	height: 40px;
+	margin: 5px;
+	border-radius: 5px;
+	background: 0;
+	border: 1px solid rgba(255,255,255,.08);
+}
+
+.vkSocial_footer {
+	fill: rgba(0, 0, 0, 0);
+	transition: .2s;
+}
+
+.vkSocial_footer:hover {
+	fill: #5281b8;
+}
+
+.ytb_footer {
+	fill: rgba(0, 0, 0, 0);
+	transition: .2s;
+}
+
+.ytb_footer:hover {
+	fill: red;
+}
+
+.twtr_footer {
+	fill: rgba(0, 0, 0, 0);
+	transition: .2s;
+}
+
+.twtr_footer:hover {
+	fill: #50ABF1;
+}
+
+.OkSocial_footer {
+	fill: rgba(0, 0, 0, 0);
+	transition: .2s;
+}
+
+.OkSocial_footer:hover {
+	fill: #e27e35;
+}
+
+.down_footer {
+	width: 100%;
+	display: inline-block;
+	position: relative;
+}
+
+.down_footer>span {
+	position: absolute;
+	left: 5%;
+	top: 20px;
+	bottom: 20px;
+	color: #999;
+}
+
+.down_footer>img {
+	position: absolute;
+	right: 5%;
+	top: -20px;
+	bottom: 20px;
+	color: #999;
+}
+
+
+
+
+
+
+
+.upFooter_mobile {
+	width: 100%;
+}
+
+.dropDownBtn_footer {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	border-bottom: 1px solid #999;
+}
+
+.dropDownBtn_footer_click {
+	overflow: hidden;
+	display: flex;
+	width: 100%;
+	height: 62px;
+	background: #333;
+	cursor: pointer;
+	transition: .2s;
+	z-index: 2;
+}
+
+.dropDownBtn_footer_click:hover {
+	background: rgba(153, 153, 153, .2);
+}
+
+.dropDownBtn_footer_click>span {
+	font-size: 18px;
+	color: white;
+	margin-left: 18px;
+	line-height: 62px;
+}
+
+.dropDownArrow_footer {
+	width: 26px;
+	height: 26px;
+	margin: 18px 18px 18px auto;
+	fill: white;
+	transition: .2s;
+
+}
+
+.active_btnFooter {
+	background: rgba(153, 153, 153, .3);
+}
+
+.active_btnFooter>.dropDownArrow_footer {
+	transform: rotate(180deg);
+}
+
+.dropDownMenu_footerMobil {
+	width: 100%;
+	position: absolute;
+	display: ;
+	top: 0px;
+	z-index: 1;
+}
+
+.dropDownMenu_btn_footerMobil {
+	width: 100%;
+	height: 50px;
+	transition: .2s;
+	
+}
+
+.dropDownMenu_btn_footerMobil>span {
+	line-height: 50px;
+	font-size: 16px;
+	color: #fff;
+	margin-left: 20px;
+	transition: .2s;
+}
+
+.dropDownMenu_btn_footerMobil:hover {
+	background: rgba(153, 153, 153, .1);
+}
+
+
+
+
+
+
+@media screen and (max-width: 1145px) {
+	.up_footer{
+		flex-wrap: wrap;
+	}
+
+	.catalog_footer, .company_footer, .info_footer, .help_footer {
+		width: 200px;
+	}
+
+	.contact_footer {
+		padding-top: 30px;
+		margin: 0 auto;
+	}
+
+	.contact_footer::before, .contact_footer::after{
+		content: '';
+		width: 100%;
+	}
+	footer {
+		min-height: 600px;
+	}
+
+}
+
+@media screen and (max-width: 980px) {
+	.catalog_footer, .company_footer, .info_footer, .help_footer {
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 825px) {
+	.full_footer{
+		display: none;
+	}
+	.mobile_footer {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 826px) {
+	.full_footer{
+		display: block;
+	}
+	.mobile_footer {
+		display: none;
+	}
+}
